@@ -19,7 +19,7 @@ jobs:
       - name: Zip files
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r Dokucraft-TSC-Light_BTA-7.1.zip .
+          args: zip -qq -r Dokucraft-TSC-Light_BTA-7.1.zip . -x .github/\* -x .git/\* -x README.md
 
       - name: Create Release
         id: create_release
