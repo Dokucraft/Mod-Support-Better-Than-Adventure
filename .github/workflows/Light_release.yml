@@ -3,7 +3,7 @@ name: Create Light Release
 on:
   push:
     branches:
-      - Light
+      - light
 
 jobs:
   build:
