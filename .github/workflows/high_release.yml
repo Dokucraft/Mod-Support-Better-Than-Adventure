@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      RELEASE_VERSION: ${{ github.run_number }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -19,11 +22,12 @@ jobs:
           args: zip -qq -r Dokucraft-TSC-High_BTA-7.1.zip .
 
       - name: Create Release
+        id: create_release
         uses: ncipollo/release-action@v1
         with:
-          tag: "v${{ github.ref_name }}"
-          name: "Release ${{ github.ref_name }}"
-          body: "${{ github.ref_name }}"
+          tag: "v${{ github.run_number }}"
+          name: "Dokucraft BTA High Update ${{ env.RELEASE_VERSION }}"
+          body: "Automatic release for Dokucraft BTA High Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
           token: ${{ secrets.TEST_RELEASE }}
