@@ -16,10 +16,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Exclude unwanted files
+        run: |
+          find . -name '.github' -type d -exec rm -rf {} +
+          find . -name '.git' -type d -exec rm -rf {} +
+          rm -f README.md
+          
       - name: Zip files
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r Dokucraft-TSC-Light_BTA-7.1.zip . -x .github/\* -x .git/\* -x README.md
+          args: zip -qq -r Dokucraft-TSC-Light_BTA-7.1.zip .
 
       - name: Create Release
         id: create_release
