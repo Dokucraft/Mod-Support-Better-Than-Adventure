@@ -21,9 +21,9 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          tag: "v${GITHUB_REF_NAME}"
-          name: "Release ${GITHUB_REF_NAME}"
-          body: "Automatic release for ${GITHUB_REF_NAME}"
+          tag: "v${{ github.ref_name }}"
+          name: "Release ${{ github.ref_name }}"
+          body: "${{ github.ref_name }}"
           draft: false
           prerelease: false
           token: ${{ secrets.TEST_RELEASE }}
