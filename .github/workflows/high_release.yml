@@ -1,0 +1,30 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Zip files
+        uses: montudor/action-zip@v1
+        with:
+          args: ./* -r -o Dokucraft-TSC-Light_BTA-7.1.zip
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: "v${GITHUB_REF_NAME}"
+          name: "Release ${GITHUB_REF_NAME}"
+          body: "Automatic release for ${GITHUB_REF_NAME}"
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          assets: Dokucraft-TSC-Light_BTA-7.1.zip
