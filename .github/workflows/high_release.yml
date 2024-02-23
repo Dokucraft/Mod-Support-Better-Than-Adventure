@@ -26,5 +26,5 @@ jobs:
           body: "Automatic release for ${GITHUB_REF_NAME}"
           draft: false
           prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
-          assets: Dokucraft-TSC-High_BTA-7.1.zip
+          token: ${{ secrets.TEST_RELEASE }}
+          artifacts: Dokucraft-TSC-High_BTA-7.1.zip
