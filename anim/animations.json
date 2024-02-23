@@ -1,0 +1,128 @@
+{
+	"animations": [
+		{
+			"type": "terrain",
+			"tile": 397,
+			"name": "custom_water_still"
+		},
+		{	"type": "terrain",
+			"tile": 398,
+			"name": "custom_water_flowing"
+		},
+		{
+			"type": "terrain",
+			"tile": 462,
+			"name": "custom_lava_still"
+		},
+		{	
+			"type": "terrain",
+			"tile": 463,
+			"name": "custom_lava_flowing"
+		},
+		{	
+			"type": "item",
+			"tile": 39,
+			"name": "iron_ingot"
+		},
+		{	
+			"type": "item",
+			"tile": 71,
+			"name": "gold_ingot"
+		},
+		{	
+			"type": "item",
+			"tile": 231,
+			"name": "steel_ingot"
+		},
+		{	
+			"type": "item",
+			"tile": 139,
+			"name": "water_bucket"
+		},
+		{	
+			"type": "item",
+			"tile": 140,
+			"name": "lava_bucket"
+		},
+		{	
+			"type": "item",
+			"tile": 141,
+			"name": "milk_bucket"
+		},
+		{	
+			"type": "item",
+			"tile": 103,
+			"name": "diamond"
+		},
+		{	
+			"type": "item",
+			"tile": 5,
+			"name": "flint_and_steel"
+		},
+		{	
+			"type": "item",
+			"tile": 322,
+			"name": "steel_firestriker"
+		},
+		{	
+			"type": "terrain",
+			"tile": 160,
+			"name": "torch"
+		},
+		{	
+			"type": "terrain",
+			"tile": 232,
+			"name": "pumpkin_face_on"
+		},
+		{	
+			"type": "terrain",
+			"tile": 109,
+			"name": "furnace_front_on"
+		},
+		{	
+			"type": "terrain",
+			"tile": 270,
+			"name": "blast_furnace_front_on"
+		},
+		{	
+			"type": "item",
+			"tile": 137,
+			"name": "glowstone_dust"
+		},
+		{	
+			"type": "item",
+			"tile": 104,
+			"name": "redstone_dust"
+		},
+		{	
+			"type": "terrain",
+			"tile": 512,
+			"name": "rail_golden_powered_emissive"
+		},
+		{	
+			"type": "terrain",
+			"tile": 392,
+			"name": "motion_sensor_on"
+		},
+		{	
+			"type": "terrain",
+			"tile": 513,
+			"name": "motion_sensor_emissive"
+		},
+		{	
+			"type": "item",
+			"tile": 46,
+			"name": "slimeball"
+		},
+		{	
+			"type": "terrain",
+			"tile": 195,
+			"name": "redstone_torch_on"
+		},
+		{	
+			"type": "item",
+			"tile": 204,
+			"name": "icecream_bucket"
+		}
+	]
+}
