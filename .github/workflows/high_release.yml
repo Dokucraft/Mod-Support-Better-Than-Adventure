@@ -16,7 +16,7 @@ jobs:
       - name: Zip files
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r Dokucraft-TSC-High_BTA-7.1.zip high 
+          args: zip -qq -r Dokucraft-TSC-High_BTA-7.1.zip . -i high 
 
       - name: Create Release
         uses: ncipollo/release-action@v1
