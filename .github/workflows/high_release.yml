@@ -1,4 +1,4 @@
-name: Create Release
+name: Create High Release
 
 on:
   push:
@@ -15,6 +15,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Exclude unwanted files
+        run: |
+          find . -name '.github' -type d -exec rm -rf {} +
+          find . -name '.git' -type d -exec rm -rf {} +
+          rm -f README.md
 
       - name: Zip files
         uses: montudor/action-zip@v1
