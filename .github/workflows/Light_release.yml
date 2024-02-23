@@ -26,8 +26,8 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: "v${{ github.run_number }}"
-          name: "Dokucraft BTA High Update ${{ env.RELEASE_VERSION }}"
-          body: "Automatic release for Dokucraft BTA High Update ${{ env.RELEASE_VERSION }}"
+          name: "Dokucraft BTA Light Update ${{ env.RELEASE_VERSION }}"
+          body: "Automatic release for Dokucraft BTA Light Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
           token: ${{ secrets.TEST_RELEASE }}
