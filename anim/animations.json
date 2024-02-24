@@ -140,6 +140,11 @@
 			"name": "diamond_ore_granite"
 		},
 		{	
+			"type": "terrain",
+			"tile": 320,
+			"name": "redstone_block"
+		},
+		{	
 			"type": "item",
 			"tile": 204,
 			"name": "icecream_bucket"
