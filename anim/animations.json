@@ -150,6 +150,91 @@
 			"name": "repeater_on"
 		},
 		{	
+			"type": "terrain",
+			"tile": 786,
+			"name": "black_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 947,
+			"name": "magenta_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 851,
+			"name": "lime_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 1010,
+			"name": "light_grey_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 915,
+			"name": "light_blue_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 979,
+			"name": "orange_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 819,
+			"name": "pink_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 946,
+			"name": "purple_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 818,
+			"name": "red_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 1011,
+			"name": "white_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 883,
+			"name": "yellow_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 787,
+			"name": "grey_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 850,
+			"name": "green_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 978,
+			"name": "cyan_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 914,
+			"name": "blue_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 882,
+			"name": "brown_lamp"
+		},
+		{	
+			"type": "terrain",
+			"tile": 201,
+			"name": "glowstone"
+		},
+		{	
 			"type": "item",
 			"tile": 204,
 			"name": "icecream_bucket"
