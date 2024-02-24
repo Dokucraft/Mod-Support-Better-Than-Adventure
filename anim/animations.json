@@ -145,6 +145,11 @@
 			"name": "redstone_block"
 		},
 		{	
+			"type": "terrain",
+			"tile": 291,
+			"name": "repeater_on"
+		},
+		{	
 			"type": "item",
 			"tile": 204,
 			"name": "icecream_bucket"
