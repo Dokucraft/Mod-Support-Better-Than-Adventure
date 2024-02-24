@@ -120,6 +120,26 @@
 			"name": "redstone_torch_on"
 		},
 		{	
+			"type": "terrain",
+			"tile": 20,
+			"name": "diamond_ore_stone"
+		},
+		{	
+			"type": "terrain",
+			"tile": 52,
+			"name": "diamond_ore_basalt"
+		},
+		{	
+			"type": "terrain",
+			"tile": 84,
+			"name": "diamond_ore_limestone"
+		},
+		{	
+			"type": "terrain",
+			"tile": 116,
+			"name": "diamond_ore_granite"
+		},
+		{	
 			"type": "item",
 			"tile": 204,
 			"name": "icecream_bucket"
