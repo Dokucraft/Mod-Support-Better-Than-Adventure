@@ -36,5 +36,5 @@ jobs:
           body: "Automatic release for Dokucraft BTA Light Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
-          token: ${{ secrets.TEST_RELEASE }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           artifacts: Dokucraft-TSC-Light_BTA-7.1.zip
