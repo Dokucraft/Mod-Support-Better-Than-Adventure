@@ -238,6 +238,11 @@
 			"type": "item",
 			"tile": 204,
 			"name": "icecream_bucket"
+		},
+		{	
+			"type": "item",
+			"tile": 197,
+			"name": "nether_coal"
 		}
 	]
 }
