@@ -243,6 +243,26 @@
 			"type": "item",
 			"tile": 197,
 			"name": "nether_coal"
+		},
+		{	
+			"type": "terrain",
+			"tile": 333,
+			"name": "firefly_jar_blue"
+		},
+		{	
+			"type": "terrain",
+			"tile": 366,
+			"name": "firefly_jar_red"
+		},
+		{	
+			"type": "terrain",
+			"tile": 334,
+			"name": "firefly_jar_orange"
+		},
+		{	
+			"type": "terrain",
+			"tile": 365,
+			"name": "firefly_jar_green"
 		}
 	]
 }
