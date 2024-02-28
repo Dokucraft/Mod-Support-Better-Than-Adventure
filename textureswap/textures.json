@@ -116,6 +116,12 @@
       }
     },
     {
+      "itemName": "item.tool.sword.steel",
+      "entries": {
+        "Steel Cutlass": 0
+      }
+    },
+    {
       "itemName": "item.tool.hoe.diamond",
       "entries": {
         "Xmas Dia Hoe": 0
