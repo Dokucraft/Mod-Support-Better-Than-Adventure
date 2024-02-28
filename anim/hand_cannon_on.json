@@ -1,0 +1,8 @@
+{
+    	"frametime": 2,
+	"random": false,
+	"frames": [
+		0, 1, 2, 3, 4, 5,
+	],
+	"interpolate": false
+}

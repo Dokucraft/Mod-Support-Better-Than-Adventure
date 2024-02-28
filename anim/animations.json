@@ -245,6 +245,11 @@
 			"name": "nether_coal"
 		},
 		{	
+			"type": "item",
+			"tile": 293,
+			"name": "hand_cannon_on"
+		},
+		{	
 			"type": "terrain",
 			"tile": 333,
 			"name": "firefly_jar_blue"
