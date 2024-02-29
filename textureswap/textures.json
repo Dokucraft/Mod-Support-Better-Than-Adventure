@@ -140,6 +140,54 @@
       }
     },
     {
+      "itemName": "item.armor.chestplate.gold",
+      "entries": {
+        "Og Gold Chest": 0
+      }
+    },
+    {
+      "itemName": "item.armor.helmet.gold",
+      "entries": {
+        "Og Gold Helmet": 0
+      }
+    },
+    {
+      "itemName": "item.armor.leggings.gold",
+      "entries": {
+        "Og Gold Legs": 0
+      }
+    },
+    {
+      "itemName": "item.armor.boots.gold",
+      "entries": {
+        "Og Gold Boots": 0
+      }
+    },
+    {
+      "itemName": "item.armor.chestplate.diamond",
+      "entries": {
+        "New Dia Chest": 0
+      }
+    },
+    {
+      "itemName": "item.armor.helmet.diamond",
+      "entries": {
+        "New Dia Helmet": 0
+      }
+    },
+    {
+      "itemName": "item.armor.leggings.diamond",
+      "entries": {
+        "New Dia Legs": 0
+      }
+    },
+    {
+      "itemName": "item.armor.boots.diamond",
+      "entries": {
+        "New Dia Boots": 0
+      }
+    },
+    {
       "itemName": "item.tool.sword.diamond",
       "entries": {
         "Xmas Dia Sword": 0,
