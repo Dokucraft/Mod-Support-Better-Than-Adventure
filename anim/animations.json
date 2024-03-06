@@ -20,6 +20,16 @@
 			"name": "custom_lava_flowing"
 		},
 		{	
+			"type": "terrain",
+			"tile": 47,
+			"name": "custom_fire_layer_0"
+		},
+		{	
+			"type": "terrain",
+			"tile": 79,
+			"name": "custom_fire_layer_1"
+		},
+		{	
 			"type": "item",
 			"tile": 39,
 			"name": "iron_ingot"
