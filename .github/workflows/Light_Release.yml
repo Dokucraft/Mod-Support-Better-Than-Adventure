@@ -33,7 +33,7 @@ jobs:
         with:
           tag: "v${{ github.run_number }}"
           name: "Dokucraft BTA Light Update ${{ env.RELEASE_VERSION }}"
-          body: "Automatic release for Dokucraft BTA Light Update ${{ env.RELEASE_VERSION }}"
+          body: "Usage: Download the .zip under assets, place in the texturepacks folder. Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
