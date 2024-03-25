@@ -32,8 +32,8 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: "v${{ github.run_number }}"
-          name: "Dokucraft BTA High Update ${{ env.RELEASE_VERSION }}"
-          body: "Automatic release for Dokucraft BTA High Update ${{ env.RELEASE_VERSION }}"
+          name: "Dokucraft TSC BTA High Update ${{ env.RELEASE_VERSION }}"
+          body: "Usage: Download the .zip under assets, place in the texturepacks folder. Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
