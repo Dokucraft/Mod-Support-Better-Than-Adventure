@@ -5,6 +5,9 @@ on:
     branches:
       - 7.3-High
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6.0.2
 
       - name: Exclude unwanted files
         run: |
@@ -29,12 +32,13 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@v1.20.0
         with:
           tag: "v${{ github.ref_name }}${{ github.run_number }}"
           name: "Dokucraft TSC BTA 7.3 High"
           body: "Usage: Download the .zip under assets, place in the texturepacks folder. Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
+          immutableCreate: true
           token: ${{ secrets.GITHUB_TOKEN }}
           artifacts: Dokucraft-TSC-High_BTA-7.3.zip
